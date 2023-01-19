@@ -1,1 +1,1 @@
-TinDog Starting Files
+Heard of Tindor? Introducing Tindog. Creating this startup business page step by step from scratch.
