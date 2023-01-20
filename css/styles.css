@@ -1,13 +1,10 @@
-/* Changing the properties of entire html document */
-html * {
+body {
   font-family: "Montserrat-Black", sans-serif;
 }
 h1 {
   font-family: "Montserrat-Black", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
- 
-  
 }
 
 #title {
@@ -20,4 +17,23 @@ h1 {
 
 .rotated {
   transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
 }
