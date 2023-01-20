@@ -21,12 +21,13 @@ h1 {
 
 /* Navigation Bar */
 .navbar {
-  padding-bottom: 4.5rem;
+  padding: 0px 0px 4.5rem;
 }
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
+  padding-left: 1rem;;
 }
 
 .nav-item {
