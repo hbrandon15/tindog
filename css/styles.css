@@ -10,8 +10,9 @@ h1 {
 }
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 900;
+  margin: 7%;
 }
 
 #title {
@@ -59,8 +60,13 @@ h3 {
 /* Features Section */
 
 #features {
-  margin-top: 2.5rem;
+  /* margin-top: 2.5rem; */
+  padding: 7% 15%;
+}
+
+.feature-box {
   text-align: center;
+  padding: 5%;
 }
 .features-desc {
   color: #8f8f8f;
@@ -68,7 +74,7 @@ h3 {
 /* Icons */
 .feature-icons {
   color: #ef8172;
-  margin: 10%;
+margin-bottom: 1rem;
 }
 .feature-icons:hover {
   color: #ff4c68;
