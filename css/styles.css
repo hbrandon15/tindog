@@ -59,7 +59,6 @@ h3 {
 /* Title img */
 
 .title-img {
-  /* BUG: #35 image is too large for page */
   width: 20%;
   transform: rotate(25deg); /* Equal to rotateZ(45deg) */
   position: absolute;
@@ -127,4 +126,17 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
   text-align: center;
+}
+/* Media Queries */
+
+/* Tablet and Mobile Responsiveness */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    width: 60%;
+  }
 }
