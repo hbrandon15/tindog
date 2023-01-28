@@ -16,17 +16,27 @@ p {
   font-size: 1rem;
   font-weight: 400;
 }
+
+/* Containers */
 .container-fluid {
   padding: 7% 15%;
 }
 
-/* Title Section */
-#title {
+/* Sections */
+.colored-section {
   background-color: #ff4c68;
-  text-align: left;
+  color: white;
 }
+.white-section {
+  background-color: white;
+  color: black;
+}
+
+/* Title Section */
+
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 .big-heading {
   font-family: "Montserrat", sans-serif;
@@ -80,7 +90,6 @@ p {
 
 #features {
   /* margin-top: 2.5rem; */
-  background-color: white;
   position: relative;
 }
 .feature-title {
@@ -108,7 +117,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: white;
 }
 .testimonial-text {
   font-weight: 900;
@@ -153,10 +161,6 @@ p {
 }
 
 /* Call to action */
-#cta {
-  background-color: #ff4c68;
-  color: white;
-}
 
 .cta-statement {
   margin: 0px 20%;
@@ -172,7 +176,6 @@ p {
 /* footer */
 
 #footer {
-  background-color: white;
   margin: 5% 8%;
 }
 
